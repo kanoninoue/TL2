@@ -15,6 +15,10 @@ int main(int argc, char* argv[]) {
 
 	assert(argc >= numArgument);
 
+
+
+
+
 	// comƒ‰ƒCƒuƒ‰ƒŠ‚Ì‰Šú‰»
 	HRESULT hr = CoInitializeEx(nullptr, COINIT_MULTITHREADED);
 	assert(SUCCEEDED(hr));
